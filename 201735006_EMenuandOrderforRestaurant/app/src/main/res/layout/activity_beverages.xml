@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/beverages_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Beverages">
+
+    <ImageView
+        android:id="@+id/fanta"
+        android:layout_width="198dp"
+        android:layout_height="141dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/orange_juice"
+        app:layout_constraintEnd_toStartOf="@+id/cola"
+        app:srcCompat="@drawable/pngwing_com__11_"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/tea"
+        android:layout_width="198dp"
+        android:layout_height="141dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/pngegg__3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <ImageView
+        android:id="@+id/cola"
+        android:layout_width="198dp"
+        android:layout_height="141dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/pngwing_com__14_"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <ImageView
+        android:id="@+id/coffee"
+        android:layout_width="198dp"
+        android:layout_height="141dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/pngegg__4"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="398dp" />
+
+    <ImageView
+        android:id="@+id/orange_juice"
+        android:layout_width="198dp"
+        android:layout_height="141dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/coffee"
+        app:layout_constraintEnd_toStartOf="@+id/tea"
+        app:srcCompat="@drawable/pngwing_com__8"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/Beverages_back"
+        android:layout_width="50dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintBottom_toTopOf="@id/fanta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back_arrow"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="31dp"
+        android:layout_height="27dp"
+        app:layout_constraintBottom_toBottomOf="@id/fanta"
+        app:layout_constraintStart_toStartOf="@id/fanta"
+        app:srcCompat="@drawable/addbutton" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="31dp"
+        android:layout_height="27dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@id/cola"
+        app:layout_constraintStart_toStartOf="@id/cola"
+        app:srcCompat="@drawable/addbutton" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="31dp"
+        android:layout_height="27dp"
+        app:layout_constraintBottom_toBottomOf="@id/orange_juice"
+        app:layout_constraintStart_toStartOf="@id/orange_juice"
+        app:srcCompat="@drawable/addbutton" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="31dp"
+        android:layout_height="27dp"
+        app:layout_constraintBottom_toBottomOf="@id/tea"
+        app:layout_constraintStart_toStartOf="@id/tea"
+        app:srcCompat="@drawable/addbutton" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="31dp"
+        android:layout_height="27dp"
+        app:layout_constraintBottom_toBottomOf="@id/coffee"
+        app:layout_constraintStart_toStartOf="@id/coffee"
+        app:srcCompat="@drawable/addbutton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

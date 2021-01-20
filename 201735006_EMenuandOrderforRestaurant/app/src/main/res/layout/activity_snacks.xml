@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/snacks_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Snacks">
+
+    <ImageView
+        android:id="@+id/onion_rings"
+        android:layout_width="198dp"
+        android:layout_height="141dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/onion_rings"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <ImageView
+        android:id="@+id/Mini_Quesadilla"
+        android:layout_width="198dp"
+        android:layout_height="141dp"
+        android:layout_marginBottom="12dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/onion_rings"
+        app:srcCompat="@drawable/mini_quesadilla"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="212dp" />
+
+    <ImageView
+        android:id="@+id/nachos_with_chicken"
+        android:layout_width="198dp"
+        android:layout_height="141dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="20dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/chicken_in_london"
+        app:layout_constraintEnd_toStartOf="@+id/Mini_Quesadilla"
+        app:layout_constraintTop_toBottomOf="@id/Snacks_back"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/nachos_with_chicken"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/chicken_in_london"
+        android:layout_width="198dp"
+        android:layout_height="141dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="20dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/mozzarella_sticks"
+        app:layout_constraintEnd_toStartOf="@+id/onion_rings"
+        app:srcCompat="@drawable/chicken_in_london"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/mozzarella_sticks"
+        android:layout_width="198dp"
+        android:layout_height="141dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/mozzarella_sticks"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="421dp" />
+
+    <ImageView
+        android:id="@+id/Snacks_back"
+        android:layout_width="50dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back_arrow"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView58"
+        android:layout_width="31dp"
+        android:layout_height="27dp"
+        app:layout_constraintBottom_toBottomOf="@id/Mini_Quesadilla"
+        app:layout_constraintStart_toStartOf="@+id/Mini_Quesadilla"
+        app:srcCompat="@drawable/addbutton" />
+
+    <ImageView
+        android:id="@+id/imageView59"
+        android:layout_width="31dp"
+        android:layout_height="27dp"
+        app:layout_constraintBottom_toBottomOf="@id/nachos_with_chicken"
+        app:layout_constraintStart_toStartOf="@+id/nachos_with_chicken"
+        app:srcCompat="@drawable/addbutton" />
+
+    <ImageView
+        android:id="@+id/imageView61"
+        android:layout_width="31dp"
+        android:layout_height="27dp"
+        app:layout_constraintBottom_toBottomOf="@id/chicken_in_london"
+        app:layout_constraintStart_toStartOf="@+id/chicken_in_london"
+        app:srcCompat="@drawable/addbutton" />
+
+    <ImageView
+        android:id="@+id/imageView62"
+        android:layout_width="31dp"
+        android:layout_height="27dp"
+        app:layout_constraintBottom_toBottomOf="@id/onion_rings"
+        app:layout_constraintStart_toStartOf="@+id/onion_rings"
+        app:srcCompat="@drawable/addbutton" />
+
+    <ImageView
+        android:id="@+id/imageView64"
+        android:layout_width="31dp"
+        android:layout_height="27dp"
+        app:layout_constraintBottom_toBottomOf="@id/mozzarella_sticks"
+        app:layout_constraintStart_toStartOf="@+id/mozzarella_sticks"
+        app:srcCompat="@drawable/addbutton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pasta_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pasta">
+
+    <ImageView
+        android:id="@+id/ravioli_pasta"
+        android:layout_width="198dp"
+        android:layout_height="141dp"
+        android:contentDescription="ravioli_pasta"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/ravioli_pasta"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="236dp" />
+
+    <ImageView
+        android:id="@+id/Napolitan"
+        android:layout_width="198dp"
+        android:layout_height="141dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="napolitan_pasta"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/ravioli_pasta"
+        app:srcCompat="@drawable/napolitan"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="212dp" />
+
+    <ImageView
+        android:id="@+id/Penne"
+        android:layout_width="198dp"
+        android:layout_height="141dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:contentDescription="penne"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/ravioli_pasta"
+        app:srcCompat="@drawable/penne"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="233dp" />
+
+    <ImageView
+        android:id="@+id/Fettuccine_Alfredo"
+        android:layout_width="198dp"
+        android:layout_height="141dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="fettuccine_alfredo"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/Penne"
+        app:layout_constraintEnd_toStartOf="@+id/Napolitan"
+        app:srcCompat="@drawable/fettuccine_alfredo"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/Pasta_back"
+        android:layout_width="50dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:contentDescription="pasta_back"
+        app:layout_constraintBottom_toTopOf="@+id/Fettuccine_Alfredo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back_arrow"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="31dp"
+        android:layout_height="27dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Fettuccine_Alfredo"
+        app:layout_constraintStart_toStartOf="@+id/Fettuccine_Alfredo"
+        app:srcCompat="@drawable/addbutton" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="31dp"
+        android:layout_height="27dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Napolitan"
+        app:layout_constraintStart_toStartOf="@+id/Napolitan"
+        app:srcCompat="@drawable/addbutton" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="31dp"
+        android:layout_height="27dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Penne"
+        app:layout_constraintStart_toStartOf="@+id/Penne"
+        app:srcCompat="@drawable/addbutton" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="31dp"
+        android:layout_height="27dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ravioli_pasta"
+        app:layout_constraintStart_toStartOf="@+id/ravioli_pasta"
+        app:srcCompat="@drawable/addbutton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

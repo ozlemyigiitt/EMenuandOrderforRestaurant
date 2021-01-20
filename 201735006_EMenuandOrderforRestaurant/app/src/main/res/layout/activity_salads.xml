@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/salads_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Salads">
+
+    <ImageView
+        android:id="@+id/tuna_salad"
+        android:layout_width="198dp"
+        android:layout_height="141dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/tuna_salad"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <ImageView
+        android:id="@+id/Quinoa_Saladwith_Spinach"
+        android:layout_width="198dp"
+        android:layout_height="141dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/quinoa_saladwith_spinach"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="247dp" />
+
+    <ImageView
+        android:id="@+id/panzanella_salad"
+        android:layout_width="198dp"
+        android:layout_height="141dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/panzanella"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="247dp" />
+
+    <ImageView
+        android:id="@+id/Beef_Salad"
+        android:layout_width="198dp"
+        android:layout_height="141dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/beef_salad"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <ImageView
+        android:id="@+id/Salads_back"
+        android:layout_width="50dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/back_arrow"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="31dp"
+        android:layout_height="27dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Beef_Salad"
+        app:layout_constraintStart_toStartOf="@+id/Beef_Salad"
+        app:srcCompat="@drawable/addbutton" />
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="31dp"
+        android:layout_height="27dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tuna_salad"
+        app:layout_constraintStart_toStartOf="@+id/tuna_salad"
+        app:srcCompat="@drawable/addbutton" />
+
+    <ImageView
+        android:id="@+id/imageView43"
+        android:layout_width="31dp"
+        android:layout_height="27dp"
+        app:layout_constraintBottom_toBottomOf="@+id/panzanella_salad"
+        app:layout_constraintStart_toStartOf="@+id/panzanella_salad"
+        app:srcCompat="@drawable/addbutton" />
+
+    <ImageView
+        android:id="@+id/imageView44"
+        android:layout_width="31dp"
+        android:layout_height="27dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Quinoa_Saladwith_Spinach"
+        app:layout_constraintStart_toStartOf="@+id/Quinoa_Saladwith_Spinach"
+        app:srcCompat="@drawable/addbutton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

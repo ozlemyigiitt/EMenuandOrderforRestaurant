@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MenuHomePage">
+
+    <ImageView
+        android:id="@+id/order_back2"
+        android:layout_width="50dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/Snacks"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back_arrow"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif"
+        android:text="What would you like to eat?"
+        android:textColor="#333333"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/Snacks"
+        android:layout_width="160dp"
+        android:layout_height="138dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/add_to_chart_background"
+        android:text="Snacks"
+        app:backgroundTint="@color/add_to_chart_background"
+        app:layout_constraintBottom_toTopOf="@+id/Sandwichs"
+        app:layout_constraintEnd_toStartOf="@+id/Pizza" />
+
+    <Button
+        android:id="@+id/Pizza"
+        android:layout_width="160dp"
+        android:layout_height="138dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/add_to_chart_background"
+        android:text="Pizza"
+        app:backgroundTint="@color/add_to_chart_background"
+        app:layout_constraintBottom_toTopOf="@+id/Salads"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/Sandwichs"
+        android:layout_width="160dp"
+        android:layout_height="138dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/add_to_chart_background"
+        android:text="Sandwichs"
+        app:backgroundTint="@color/add_to_chart_background"
+        app:layout_constraintBottom_toTopOf="@+id/Pasta"
+        app:layout_constraintEnd_toStartOf="@+id/Salads" />
+
+    <Button
+        android:id="@+id/Salads"
+        android:layout_width="160dp"
+        android:layout_height="138dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/add_to_chart_background"
+        android:text="Salads"
+        app:backgroundTint="@color/add_to_chart_background"
+        app:layout_constraintBottom_toTopOf="@+id/Burgers"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/Burgers"
+        android:layout_width="160dp"
+        android:layout_height="138dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/add_to_chart_background"
+        android:text="Burgers"
+        app:backgroundTint="@color/add_to_chart_background"
+        app:layout_constraintBottom_toTopOf="@+id/Beverages"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/Pasta"
+        android:layout_width="160dp"
+        android:layout_height="138dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/add_to_chart_background"
+        android:text="Pasta"
+        app:backgroundTint="@color/add_to_chart_background"
+        app:layout_constraintBottom_toTopOf="@+id/Deserts"
+        app:layout_constraintEnd_toStartOf="@+id/Burgers" />
+
+    <Button
+        android:id="@+id/Deserts"
+        android:layout_width="160dp"
+        android:layout_height="138dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="40dp"
+        android:background="@color/add_to_chart_background"
+        android:text="Deserts"
+        app:backgroundTint="@color/add_to_chart_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Beverages" />
+
+    <Button
+        android:id="@+id/Beverages"
+        android:layout_width="160dp"
+        android:layout_height="138dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="40dp"
+        android:background="@color/add_to_chart_background"
+        android:text="Beverages"
+        app:backgroundTint="@color/add_to_chart_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

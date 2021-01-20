@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/burgers_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Burgers">
+
+    <ImageView
+        android:id="@+id/Spanish_Burger"
+        android:layout_width="198dp"
+        android:layout_height="141dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/Mac_and_Cheese_Burger"
+        app:layout_constraintEnd_toStartOf="@+id/BBQ_Burger"
+        app:srcCompat="@drawable/spanish_burger"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/Mexican_Burger"
+        android:layout_width="198dp"
+        android:layout_height="141dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/mexican_burger"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="252dp" />
+
+    <ImageView
+        android:id="@+id/BBQ_Burger"
+        android:layout_width="198dp"
+        android:layout_height="141dp"
+        android:layout_marginBottom="20dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/Mexican_Burger"
+        app:srcCompat="@drawable/bbq_burger"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="212dp" />
+
+    <ImageView
+        android:id="@+id/Mac_and_Cheese_Burger"
+        android:layout_width="198dp"
+        android:layout_height="141dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/Chicken_Burger"
+        app:layout_constraintEnd_toStartOf="@+id/Mexican_Burger"
+        app:srcCompat="@drawable/mac_and_cheese_burger"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/Chicken_Burger"
+        android:layout_width="198dp"
+        android:layout_height="141dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/chicken_burger"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="413dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="31dp"
+        android:layout_height="27dp"
+        app:layout_constraintStart_toStartOf="@+id/Chicken_Burger"
+        app:srcCompat="@drawable/addbutton"
+        tools:layout_editor_absoluteY="527dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/Burgers_back"
+        android:layout_width="50dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/Spanish_Burger"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back_arrow"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="31dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        app:layout_constraintStart_toEndOf="@+id/Spanish_Burger"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/addbutton"
+        tools:layout_editor_absoluteY="205dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="31dp"
+        android:layout_height="27dp"
+        app:layout_constraintStart_toStartOf="@+id/Mac_and_Cheese_Burger"
+        app:srcCompat="@drawable/addbutton"
+        tools:layout_editor_absoluteY="366dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="31dp"
+        android:layout_height="27dp"
+        app:layout_constraintStart_toStartOf="@+id/Mexican_Burger"
+        app:srcCompat="@drawable/addbutton"
+        tools:layout_editor_absoluteY="365dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="31dp"
+        android:layout_height="27dp"
+        app:layout_constraintStart_toStartOf="@+id/BBQ_Burger"
+        app:srcCompat="@drawable/addbutton"
+        tools:layout_editor_absoluteY="205dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
